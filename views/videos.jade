@@ -1,0 +1,8 @@
+extends layout
+script
+block content
+    h1= title
+    p Welcome To #{title}
+    ul
+        each val in videos
+            li= val
